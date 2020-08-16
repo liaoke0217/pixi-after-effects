@@ -1,3 +1,11 @@
+# 說明
+修改自[pixi-after-effects](https://github.com/knocknote/pixi-after-effects)
+
+主要是重新build ```1.0.4``` 版本，因為現在npm上暫時只有```pixi-after-effects@1.0.1```
+之後可能會加上額外的功能，但目前暫時沒有改別的東西
+
+為了在專案中和原本的套件更好區分，```package.json```中的套件名稱改為```f-pixi-after-effects-re```
+
 # pixi-after-effects
 play AfterEffects animation by pixi.js
 

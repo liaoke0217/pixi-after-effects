@@ -1,5 +1,5 @@
 {
-  "name": "pixi-after-effects",
+  "name": "f-pixi-after-effects-re",
   "version": "1.0.4",
   "description": "play AfterEffects animation by pixi.js",
   "main": "src/index.js",
