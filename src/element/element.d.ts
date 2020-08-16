@@ -285,7 +285,7 @@ export declare class Element extends PIXI.Graphics {
     static createOpacityEasing(animData: OpacityAnimationData): BezierEasing.EasingFunction;
     static createAnimatedOpacity(data: OpacityAnimationData[]): OpacityAnimation[];
     setupPosition(data: PositionData): void;
-    static createPosition(data: PositionData | SeparatedPositionData): PIXI.Point | PositionAnimation[] | SeparatedPositionAnimation;
+    static createPosition(data: PositionData | SeparatedPositionData): PIXI.Point | SeparatedPositionAnimation | PositionAnimation[];
     static createSeparatedPositionEasing(animData: SeparatedPositionAnimationData): BezierEasing.EasingFunction;
     static createAnimatedSeparatedPosition(data: SeparatedPositionAnimationData[]): EachPositionAnimation[];
     static createPositionEasing(animData: PositionAnimationData | SeparatedPositionAnimationData): BezierEasing.EasingFunction;

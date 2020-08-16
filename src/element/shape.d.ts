@@ -223,7 +223,7 @@ export declare class ShapeElement extends Element {
     static createTrimAnimation(data: TrimAnimationData[]): TrimAnimation[];
     setupRect(data: RectData): void;
     setupEllipse(data: EllipseData): void;
-    static createSize(data: PositionData): PIXI.Point | PositionAnimation[] | SeparatedPositionAnimation;
+    static createSize(data: PositionData): PIXI.Point | SeparatedPositionAnimation | PositionAnimation[];
     static createColor(data: ColorData): string | ColorAnimation[];
     static createColorEasing(animData: ColorAnimationData): BezierEasing.EasingFunction;
     static createAnimatedColor(data: ColorAnimationData[]): ColorAnimation[];
